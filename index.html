@@ -8,7 +8,9 @@
       font-family: 'Times New Roman', serif;
       margin: 0;
       padding: 0;
-      background: url('Logo padang.png') center center no-repeat;
+      background-image: url('Logo padang.png');
+      background-position: center center;
+      background-repeat: no-repeat;
       background-size: auto;
     }
 
@@ -22,8 +24,14 @@
 
     .header {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
+      justify-content: space-between;
       margin-bottom: 30px;
+    }
+
+    .logo-group {
+      display: flex;
+      align-items: flex-start;
     }
 
     .logo {
@@ -35,6 +43,10 @@
       font-weight: bold;
       font-size: 22px;
       line-height: 1.4;
+    }
+
+    .sipamas-header {
+      width: 180px;
     }
 
     .section {
@@ -81,13 +93,17 @@
 
   <div class="container">
 
+    <!-- Header: Logo Padang + Teks + Logo SIPAMAS -->
     <div class="header">
-      <img src="Logo padang.png" alt="Logo Padang" class="logo">
-      <div class="judul">
-        PEMERINTAH KOTA PADANG<br>
-        KECAMATAN LUBUK BEGALUNG<br>
-        KELURAHAN TANJUNG AUA NAN XX
+      <div class="logo-group">
+        <img src="Logo padang.png" alt="Logo Padang" class="logo">
+        <div class="judul">
+          PEMERINTAH KOTA PADANG<br>
+          KECAMATAN LUBUK BEGALUNG<br>
+          KELURAHAN TANJUNG AUA NAN XX
+        </div>
       </div>
+      <img src="SIPAMAS.png" alt="Logo SIPAMAS" class="sipamas-header">
     </div>
 
     <!-- Surat Belum Menikah -->
@@ -99,6 +115,7 @@
             <li>Surat Pernyataan (<a href="https://drive.google.com/drive/folders/1csz42yvatDJSv0-pFOe0oKYx_pN-T31S?usp=drive_link">Klik disini !!!</a>)</li>
             <li>Foto copy KTP 2 rangkap</li>
             <li>Foto copy Kartu Keluarga 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Logo belum menikah.png">
@@ -114,6 +131,7 @@
             <li>Surat Pernyataan (<a href="https://drive.google.com/drive/folders/1FjSVsXD5wWbgjwPstr_3xYVbc_P6JCdt?usp=drive_link">Klik disini !!!</a>)</li>
             <li>Foto copy KTP 2 rangkap</li>
             <li>Foto copy Kartu Keluarga 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Logo SKTM.png">
@@ -145,6 +163,7 @@
             <li>Surat Pernyataan (<a href="https://drive.google.com/drive/folders/1Xq3SDFvTf2YO1onNnmXVAR3Puc62RE8N?usp=drive_link">Klik disini !!!</a>)</li>
             <li>Foto copy KTP 2 rangkap</li>
             <li>Foto copy Kartu Keluarga 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Surat penghasilan.png" alt="Surat Tidak Mampu">
@@ -159,7 +178,8 @@
           <ol>
             <li>Foto copy KTP pemohon/saksi 2 rangkap</li>
             <li>Foto copy Kartu Keluarga yang meninggal 2 rangkap</li>
-            <li>Surat Keterangan dari rumah sakit</li>
+            <li>Surat Keterangan dari rumah sakit apabila meninggal di rumah sakit</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Surat Keterangan Kematian.png" alt="Surat Tidak Mampu">
@@ -176,10 +196,11 @@
             <li>Foto copy KTP pemohon 2 rangkap</li>
             <li>Foto copy KTP Saksi I dan II 2 rangkap</li>
             <li>Foto copy Kartu Keluarga yang meninggal 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Surat Keterangan Kematian.png" alt="Surat Tidak Mampu">
-        </div>
+      </div>
     </div>
 
     <!-- Surat Keterangan Ahli Waris -->
@@ -192,6 +213,7 @@
             <li>Surat keterangan kematian</li>
             <li>Foto copy Kartu Keluarga Ahli Waris 2 rangkap</li>
             <li>Foto copy KTP Ahli Waris 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Surat Keterangan Ahli Waris.png" alt="Surat Tidak Mampu">
@@ -207,6 +229,7 @@
             <li>Surat Pernyataan (<a href="https://drive.google.com/drive/folders/1cS93pxhbhU33K8qVUGcwzvoainfHSm6_?usp=drive_link">Klik disini !!!</a>)</li>
             <li>Foto copy Kartu Keluarga 2 rangkap</li>
             <li>Foto copy KTP Ahli 2 rangkap</li>
+            <li>Surat Pengantar dari RT</li>
           </ol>
         </div>
         <img src="Logo SKBD.png" alt="Surat Tidak Mampu">
